@@ -16,7 +16,7 @@ app = Flask(__name__)
 app.secret_key = "weather_dashboard_secret_key"
 
 # OpenWeatherMap API key
-API_KEY = "e78474a15dd3f0f32559bd6f7ff8db1a"
+API_KEY = "YOUR_API_KEY_HERE"
 
 # Base URL for all OpenWeatherMap API requests
 BASE_URL = "https://api.openweathermap.org/data/2.5"
